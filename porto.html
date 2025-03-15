@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painzy - Portofolio</title>
+    <link rel="stylesheet" href="porto.css">
+    <script defer src="porto.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Painzy</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><a href="#social">Sosial Media</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+        </nav>
+        <div class="theme-toggle" onclick="toggleTheme()">🌙</div>
+    </header>
+
+    <section class="hero">
+    <div class="profile-container">
+        <img src="images/Painzy.jpeg" alt="Painzy" class="profile-pic">
+    </div>
+    <h1>Halo, Saya <span>Painzy</span></h1>
+    <p>Seorang Web Developer, Ddoser, Defacer, Cracker, Designer Kreatif</p>
+        <a href="#contact" class="btn">Hubungi Saya</a>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah pengembang web yang berfokus pada desain kreatif & pengalaman pengguna yang unik, tetapi juga tertarik pada keamanan siber. Grey Hat Hacker sering berada di zona abu-abu, antara membantu atau melanggar hukum.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skillset</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress"><div class="progress-bar" data-width="90%">90%</div></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress"><div class="progress-bar" data-width="85%">85%</div></div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress"><div class="progress-bar" data-width="75%">75%</div></div>
+        </div>
+        <div class="skill">
+            <p>Python</p>
+            <div class="progress"><div class="progress-bar" data-width="80%">80%</div></div>
+        </div>
+    </section>
+
+    <section id="contact">
+    <h2>Contact me</h2>
+    <form action="https://formspree.io/f/mbldonqj" method="POST">
+        <input type="text" name="name" placeholder="Nama" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Pesan"></textarea>
+        <button type="submit">Kirim</button>
+    </form>
+</section>
+
+<section id="social">
+    <h2>Sosial Media</h2>
+    <div class="social-links">
+        <a href="https://github.com/painzy740" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://youtube.com/@painzyaja" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://t.me/jsobfuscator" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="https://tiktok.com/@pain.01_" target="_blank"><i class="fab fa-tiktok"></i></a>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 Painzy. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
